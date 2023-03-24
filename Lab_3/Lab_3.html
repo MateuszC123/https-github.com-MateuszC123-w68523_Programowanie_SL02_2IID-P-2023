@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="../Lab_3/Lab3.2.js"></script> 
+    <script src="../Lab_3/Lab_3.3.js"></script> 
+</head>
+<body>
+    <h1 id="Tekst">Witaj!</h1>
+    <button id="btn">kliknij mnie</button>
+    <button onclick="liczba()">mod2=0</button>
+    <br>
+    <br>
+    <input type="number" id="a">
+    <input type="number" id="b">
+    <input type="button" value="DODAWANIE" onclick="suma()">
+<script>
+    
+
+    // let x=prompt("podaj imie")
+    // console.log(x);
+    
+    document.getElementById("btn").addEventListener('click', zmienTekst)
+    
+    function zmienTekst() {
+        alert("witaj w mojej stronie!")
+    }
+        
+</script>
+</body>
+</html>
